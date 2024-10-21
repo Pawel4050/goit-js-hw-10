@@ -1,0 +1,75 @@
+/* Stylizacja formularza */
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 300px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Stylizacja pola wejściowego */
+.form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.form input[type="number"] {
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+/* Stylizacja grupy przycisków radiowych */
+fieldset {
+
+display: flex;
+    justify-content: center;
+    /* Wyśrodkowanie poziome */
+    align-items: center;
+    /* Wyśrodkowanie pionowe */
+    gap: 10px;
+    /* Odstęp między elementami */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+legend {
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+/* Stylizacja etykiet przycisków radiowych, aby były obok siebie */
+fieldset label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Stylizacja przycisku */
+button[type="submit"] {
+    padding: 10px;
+    font-size: 14px;
+    color: #000000;
+    background-color: #cccccc5c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #7e7e7e;
+}
