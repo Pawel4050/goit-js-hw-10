@@ -1,4 +1,3 @@
-/* Stylizacja formularza */
 .form {
     display: flex;
     flex-direction: column;
@@ -8,7 +7,6 @@
     font-family: Arial, sans-serif;
 }
 
-/* Stylizacja pola wejściowego */
 .form label {
     display: flex;
     flex-direction: column;
@@ -25,16 +23,12 @@
 
 }
 
-/* Stylizacja grupy przycisków radiowych */
 fieldset {
 
 display: flex;
     justify-content: center;
-    /* Wyśrodkowanie poziome */
     align-items: center;
-    /* Wyśrodkowanie pionowe */
     gap: 10px;
-    /* Odstęp między elementami */
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 10px;
@@ -48,7 +42,6 @@ legend {
     padding: 0 5px;
 }
 
-/* Stylizacja etykiet przycisków radiowych, aby były obok siebie */
 fieldset label {
     display: inline-flex;
     align-items: center;
@@ -59,7 +52,6 @@ input[type="radio"] {
     margin-right: 5px;
 }
 
-/* Stylizacja przycisku */
 button[type="submit"] {
     padding: 10px;
     font-size: 14px;
